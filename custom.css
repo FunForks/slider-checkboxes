@@ -1,0 +1,18 @@
+
+/* Customized colors for slider checkboxes */
+
+label.custom {
+  --check-color: green;
+  --dim-color: red;
+  --off-color: white;
+  --two-color: blue;
+  --duration: 1s;
+}
+
+label.custom.two-way {
+  color: green;
+  --off-color: darkred;
+  --size: 1em;
+  --gap: 1em;
+  --duration: 0;
+}

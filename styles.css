@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+  background-color: #222;
+  color: #ddd;
+
+  min-height: 100vh;
+}
+
+main {
+  font-size: 5vmin;
+  border: 1px inset #fff;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+label {
+  margin-top: 0.5em;
+}
+
+label:first-of-type {
+  margin-top: 0;
+}
+
+#vertical-line {
+  --width: 2em;
+  position: absolute;
+
+  top: 0;
+  left: 50vw;
+  transform: translate(-50%, 0);
+  height: 100vh;
+  width: var(--width);
+
+  background-color: #6663;
+}
