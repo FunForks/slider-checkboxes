@@ -26,14 +26,12 @@ label:first-of-type {
 }
 
 #vertical-line {
-  --width: 2em;
   position: absolute;
-
   top: 0;
   left: 50vw;
   transform: translate(-50%, 0);
   height: 100vh;
-  width: var(--width);
-
+  width: 2em;
   background-color: #6663;
+  pointer-events: none;
 }
